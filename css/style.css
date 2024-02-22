@@ -1,0 +1,489 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.top_head {
+    display: flex;
+    background-color: #F5F5F5;
+    height: 40px;
+}
+
+.top_head_btn {
+    width: 1800px;
+    margin: auto;
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+
+.top_head_btn a {
+    text-decoration: none;
+    color: #282830;
+    font-size: 14px;
+    font-family: 'Ysabeau SC', sans-serif;
+
+}
+
+.bottom_head {
+    display: flex;
+    width: 1800px;
+    margin: auto;
+    background-color: white;
+    justify-content: space-between;
+    height: 95px;
+    align-items: center;
+}
+
+.left_side_head {
+    display: flex;
+    gap: 40px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo a {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+    text-decoration: none;
+    align-items: center;
+}
+
+nav a {
+    color: #101010;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Ysabeau SC', sans-serif;
+    line-height: 95px;
+}
+
+nav a:hover {
+    border-bottom: 2px solid black;
+}
+
+.bottom_head_btn {
+    display: flex;
+    gap: 20px;
+}
+
+.bottom_head_btn a {
+    color: #101010;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+.bottom_head_btn a:first-child::before {
+    content: url(../img/log.svg);
+    margin-right: 5px;
+}
+
+.bottom_head_btn a:last-child::before {
+    content: url(../img/search.svg);
+    margin-right: 5px;
+}
+
+.intro {
+    display: flex;
+    height: 305px;
+    background-color: #101010;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.left_side p:first-child {
+    color: #B0B8C0;
+    font-size: 18px;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-weight: 500;
+}
+
+.left_side h1 {
+    color: white;
+    font-size: 2.5em;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-weight: 600;
+}
+
+.intro_wp {
+    width: 1140px;
+    display: flex;
+    gap: 20px;
+}
+
+.right_side {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.right_side p {
+    font-size: 20px;
+    color: #e2e8ef;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-weight: 300;
+}
+
+.right_side a {
+    width: 245px;
+    display: flex;
+    height: 45px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #101010;
+    border-radius: 5px;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+
+}
+
+.right_side a::after {
+    content: url(../img/right_arrow.svg);
+    width: 25px;
+    height: 23px;
+    margin-left: 5px;
+    transition: .2s ease;
+}
+
+.right_side a:hover {
+    background-color: #C7CFD7;
+}
+
+.right_side a:hover::after {
+    transform: translate(5px);
+}
+
+.back_intro {
+    display: flex;
+    width: 100%;
+    height: 390px;
+    background-image: url(../img/intro_v2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin: 125px 0px 105px 0px;
+    justify-content: center;
+    gap: 40px;
+}
+
+.info p {
+    width: 1140px;
+    font-size: 18px;
+    color: #363840;
+    font-family: 'Ysabeau SC', sans-serif;
+    line-height: 1.5;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    width: 1140px;
+    margin: auto;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 100px;
+}
+
+.cards_service {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_service {
+    width: 30%;
+    border-bottom: 1px solid #b0b8c0;
+    height: 390px;
+}
+
+.number {
+    color: #1a1a1f;
+    font-size: 25px;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-weight: 300;
+}
+
+.text_card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text_card p:first-child {
+    color: #1a1a1f;
+    font-size: 33px;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-weight: 600;
+}
+
+.service h2 {
+    font-family: 'Ysabeau SC', sans-serif;
+    font-weight: 600;
+    color: #1a1a1f;
+    font-size: 33px;
+}
+
+.underline {
+    width: 30px;
+    height: 1px;
+    background-color: #b0b8c0;
+}
+
+.text_card p:last-child {
+    font-family: 'Ysabeau SC', sans-serif;
+    font-weight: 400;
+    color: #1a1a1f;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+
+
+.aks {
+    display: flex;
+    width: 1140px;
+    margin: 100px auto;
+}
+
+.left_aks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.left_aks h2 {
+    font-family: 'Ysabeau SC', sans-serif;
+    font-weight: 600;
+    color: #1a1a1f;
+    font-size: 33px;
+    line-height: 1.5;
+}
+
+.left_aks p {
+    font-family: 'Ysabeau SC', sans-serif;
+    font-weight: 400;
+    color: #1a1a1f;
+    font-size: 18px;
+    line-height: 1.5;
+    width: 80%;
+}
+
+.left_aks a {
+    width: 180px;
+    height: 45px;
+    display: flex;
+    background-color: #20365c;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.left_aks a::after {
+    content: url(../img/right_arrow_b60nmi2ej28v.svg);
+    width: 25px;
+    height: 23px;
+    margin-left: 5px;
+    transition: .2s ease;
+}
+
+.left_aks a:hover {
+    background-color: #4D5E7D;
+}
+
+.left_aks a:hover::after {
+    transform: translate(5px);
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    background-color: #e2e8ef;
+    height: 350px;
+}
+
+.footer {
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 90px;
+}
+
+.top_foot {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.foot_nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.foot_nav a {
+    text-decoration: none;
+    color: #1a1a1f;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    transition: .3s ease;
+}
+.foot_nav a:hover{
+    border-bottom: 1px solid #1a1a1f;
+}
+
+.bottom_foot {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copy {
+    display: flex;
+    align-items: end;
+}
+
+.foot_contact {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 20px;
+}
+
+.foot_logo {
+    display: flex;
+    align-items: end;
+}
+
+.copy p{
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: 16px;
+    color: #1a1a1f;
+}
+.foot_contact a{
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: #1a1a1f;
+    display: flex;
+    transition: .3s ease;
+}
+.foot_contact p{
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: 18px;
+    color: #1a1a1f;
+    display: flex;
+}
+.foot_contact p::before{
+    content: url(../img/time.svg);
+    width: 25px;
+    height: 23px;
+}
+.foot_contact a:first-child::before{
+    content: url(../img/marker.svg);
+}
+.foot_contact a:nth-child(2n)::before{
+    content: url(../img/phone.svg);
+}
+.foot_contact a:hover{
+    border-bottom: 1px solid #1a1a1f;
+}
+.general{
+    display: flex;
+    width: 1140px;
+    margin: auto;
+    justify-content: space-between;
+    gap: 50px;
+}
+.gen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gen:nth-child(2n){
+    padding: 0 70px;
+    border-right: 1px solid #1a1a1f;
+    border-left: 1px solid #1a1a1f;
+}
+.gen_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+    border-bottom: 1px solid #1a1a1f;
+    width: 100%;
+    height: 250px;
+    justify-content: center;
+    text-align: center;
+}
+.gen_card:last-child{
+    margin-bottom: 80px;
+}
+.gen_card p:first-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #1a1a1f;
+    width: 45px;
+}
+.gen_card p{
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: 18px;
+    color: #1a1a1f;
+}
+
+
+
+
+
+
+
+
+
+
